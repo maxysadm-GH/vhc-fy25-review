@@ -239,12 +239,11 @@
       opacity:1!important;transform:none!important}
   }
   @media print{
-    @page{size:13.33in 10in;margin:0}
+    @page{margin:0}
     html,body{background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-    .deck{gap:0;padding:0}
-    .slide{box-shadow:none;page-break-after:always;margin:0;width:13.33in;height:10in;min-height:0;overflow:hidden;
+    .deck{gap:0;padding:0;background:#fff}
+    .slide{box-shadow:none;margin:0;width:1280px;height:auto;
       opacity:1!important;transform:none!important}
-    .slide:last-child{page-break-after:auto}
     .slide *{animation:none!important;transition:none!important}
     .slide .in,.slide{opacity:1!important;transform:none!important}
   }
