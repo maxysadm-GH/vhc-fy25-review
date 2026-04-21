@@ -9,7 +9,7 @@ SLIDE_W = 1280
 
 def run(base):
     url = f"file:///{(REPORTS / (base + '.html')).as_posix()}?print=1"
-    out_pdf = REPORTS / f"{base}-v7.pdf"
+    out_pdf = REPORTS / f"{base}-v8.pdf"
     shots_dir = TMP / f"{base}_shots"
     shots_dir.mkdir(exist_ok=True)
 
